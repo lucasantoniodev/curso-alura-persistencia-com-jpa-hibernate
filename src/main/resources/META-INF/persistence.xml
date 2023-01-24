@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+
+
+    <!--  Persistence Unit representa cada banco de dados  -->
+    <persistence-unit name="loja" transaction-type="RESOURCE_LOCAL">
+        <!--        <class>br.com.alura.model.Produto</class>-->
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/loja"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="admin"/>
+
+            <!--    O Hibernate precisa saber as particularidades/dialetos do banco de dados que está sendo utilizado        -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
+
+        <!--
+              transaction-type:
+                    - JTA: Quando está utilizando um servidor de aplicação JavaEE (EJB, JMS) e o servidor se encarregar de cuidar da transação
+                    - RESOURCE_LOCAL: Quando esta gerenciado na própria maquina
+              -->
