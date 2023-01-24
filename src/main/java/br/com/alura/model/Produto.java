@@ -33,7 +33,8 @@ public class Produto {
     private String descricao;
     private BigDecimal preco;
     private LocalDate data = LocalDate.now();
-    @Enumerated(EnumType.STRING) // Quando trabalhamos com ENUM precisamos informar que queremos a string e não o index do enum
+
+    @ManyToOne // Uma CATEGORIA pode ter vários PRODUTOS, mas um PRODUTO só pode ter UMA CATEGORIA;
     private Categoria categoria;
 
     public Produto(String nome, String descricao, BigDecimal preco, Categoria categoria) {
@@ -41,6 +42,10 @@ public class Produto {
         this.descricao = descricao;
         this.preco = preco;
         this.categoria = categoria;
+    }
+
+    public Produto() {
+
     }
 
     public Long getId() {

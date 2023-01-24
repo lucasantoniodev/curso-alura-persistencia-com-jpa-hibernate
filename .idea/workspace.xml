@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a4d75d-13d3-4045-af3b-835606d66213" name="Changes" comment="JPA - Organizando código (Classe DAO E UTIL)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/model/Categoria.java" afterDir="false" />
+    <list default="true" id="e6a4d75d-13d3-4045-af3b-835606d66213" name="Changes" comment="JPA - Tipos de atributos">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/CategoriaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9201bfc-f21f-4a51-9626-080f2291c93f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9201bfc-f21f-4a51-9626-080f2291c93f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/model/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/model/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/testes/CadastroDeProduto.java" afterDir="false" />
     </list>
@@ -68,6 +70,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.alura.model" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alura.dao" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CadastroDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -97,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674584026061</updated>
-      <workItem from="1674584027681" duration="10064000" />
+      <workItem from="1674584027681" duration="12284000" />
     </task>
     <task id="LOCAL-00001" summary="JPA - Persistindo uma entidade">
       <created>1674590773134</created>
@@ -113,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674591525459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JPA - Tipos de atributos">
+      <created>1674597771086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674597771086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JPA - Persistindo uma entidade" />
     <MESSAGE value="JPA - Organizando código (Classe DAO E UTIL)" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA - Organizando código (Classe DAO E UTIL)" />
+    <MESSAGE value="JPA - Tipos de atributos" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA - Tipos de atributos" />
   </component>
 </project>
