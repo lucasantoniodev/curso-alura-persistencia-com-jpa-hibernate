@@ -25,6 +25,7 @@ public class CadastroDeProduto {
                 celulares
         );
 
+        // https://prnt.sc/6cz7vCwKNRLL
         //  new class  -> persist() -> commit ou flush()
         // -> Transient -> Managed -> BD
         //                  |    close ou clear()
@@ -39,7 +40,8 @@ public class CadastroDeProduto {
         celulares = em.merge(celulares); // Este método cria uma nova referência da entidade que estava em Detached, ele não altera o estado delas
         celulares.setNome("123");
         em.flush();
-
+        categoriaDao.remover(celulares);
+        em.flush();
 //        categoriaDao.cadastrar(celulares); // salva a operação
 //        produtoDao.cadastrar(celular); // Salva a operação
 //        em.getTransaction().commit(); // Comita e executa as operações

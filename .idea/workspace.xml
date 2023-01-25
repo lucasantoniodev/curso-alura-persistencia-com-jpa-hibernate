@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a4d75d-13d3-4045-af3b-835606d66213" name="Changes" comment="JPA - Mapeando relaciomanetos, cardinalidade">
+    <list default="true" id="e6a4d75d-13d3-4045-af3b-835606d66213" name="Changes" comment="JPA - merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/CategoriaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/CategoriaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/testes/CadastroDeProduto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674584026061</updated>
-      <workItem from="1674584027681" duration="14515000" />
+      <workItem from="1674584027681" duration="16688000" />
     </task>
     <task id="LOCAL-00001" summary="JPA - Persistindo uma entidade">
       <created>1674590773134</created>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674605648069</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JPA - Mapeando relaciomanetos, cardinalidade">
+      <created>1674606589237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674606589237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
