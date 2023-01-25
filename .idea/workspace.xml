@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6a4d75d-13d3-4045-af3b-835606d66213" name="Changes" comment="JPA - Consultando Endidades (JPQL)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/CategoriaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/CategoriaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/ProdutoDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/testes/CadastroDeProduto.java" afterDir="false" />
     </list>
@@ -104,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674584026061</updated>
       <workItem from="1674584027681" duration="16688000" />
-      <workItem from="1674619888711" duration="667000" />
+      <workItem from="1674619888711" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="JPA - Persistindo uma entidade">
       <created>1674590773134</created>
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674619930408</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="JPA - Consultando Endidades (JPQL)">
+      <created>1674620586221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674620586221</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

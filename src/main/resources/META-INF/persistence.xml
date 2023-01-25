@@ -17,6 +17,7 @@
             <!--    O Hibernate precisa saber as particularidades/dialetos do banco de dados que está sendo utilizado        -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
             <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>
     </persistence-unit>

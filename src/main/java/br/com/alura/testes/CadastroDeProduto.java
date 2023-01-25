@@ -23,6 +23,12 @@ public class CadastroDeProduto {
 
         List<Produto> produtos = produtoDao.buscarTodos();
         produtos.forEach(p -> System.out.println(p.getNome()));
+
+        List<Produto> produtosPorNome = produtoDao.buscarPorNome("Xiami Redmi");
+        produtosPorNome.forEach(p -> System.out.println(p.getNome()));
+
+        List<Produto> produtosPorCategoria = produtoDao.buscarPorNomeDaCategoria("Celulares");
+        produtosPorCategoria.forEach(p -> System.out.println(p.getNome()));
     }
 
     private static void cadastrarProduto() {
@@ -33,7 +39,7 @@ public class CadastroDeProduto {
 
         Categoria celulares = new Categoria("Celulares");
         Produto celular = new Produto(
-                "Xiami Redmi",
+                "Xioami Redmi",
                 "Muito legal",
                 new BigDecimal("800"),
                 celulares
