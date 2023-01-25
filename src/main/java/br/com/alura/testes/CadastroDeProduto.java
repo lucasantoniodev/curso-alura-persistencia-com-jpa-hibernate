@@ -13,6 +13,7 @@ public class CadastroDeProduto {
 
     public static void main(String[] args) {
         EntityManager em = JPAUtil.getEntityManger();
+        em.getTransaction().begin(); // Preparar/Iniciar a transação
         CategoriaDao categoriaDao = new CategoriaDao(em);
         ProdutoDao produtoDao = new ProdutoDao(em);
 
@@ -29,10 +30,19 @@ public class CadastroDeProduto {
         //                  |    close ou clear()
         //                  |-> Detached
 
-        em.getTransaction().begin(); // Preparar/Iniciar a transação
-        categoriaDao.cadastrar(celulares); // salva a operação
-        produtoDao.cadastrar(celular); // Salva a operação
-        em.getTransaction().commit(); // Comita e executa as operações
+        em.persist(celulares); // Coloca uma entidade no estado Managed
+        celulares.setNome("XPTO"); // Atualizando a entidade
+
+        em.flush(); // Enviando para o banco de dados
+        em.clear(); // Movendo o estado da entidade para Detached
+
+        celulares = em.merge(celulares); // Este método cria uma nova referência da entidade que estava em Detached, ele não altera o estado delas
+        celulares.setNome("123");
+        em.flush();
+
+//        categoriaDao.cadastrar(celulares); // salva a operação
+//        produtoDao.cadastrar(celular); // Salva a operação
+//        em.getTransaction().commit(); // Comita e executa as operações
 
         em.close(); // Finaliza a instancia do EM
     }
