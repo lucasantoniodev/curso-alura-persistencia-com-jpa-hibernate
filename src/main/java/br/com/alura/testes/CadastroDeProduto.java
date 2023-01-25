@@ -24,6 +24,10 @@ public class CadastroDeProduto {
                 celulares
         );
 
+        //  new class  -> persist() -> commit ou flush()
+        // -> Transient -> Managed -> BD
+        //                  |    close ou clear()
+        //                  |-> Detached
 
         em.getTransaction().begin(); // Preparar/Iniciar a transação
         categoriaDao.cadastrar(celulares); // salva a operação
