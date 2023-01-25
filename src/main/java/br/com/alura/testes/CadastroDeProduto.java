@@ -8,10 +8,24 @@ import br.com.alura.util.JPAUtil;
 
 import javax.persistence.EntityManager;
 import java.math.BigDecimal;
+import java.util.List;
 
 public class CadastroDeProduto {
 
     public static void main(String[] args) {
+        cadastrarProduto();
+
+        EntityManager em = JPAUtil.getEntityManger();
+        ProdutoDao produtoDao = new ProdutoDao(em);
+
+        Produto produto = produtoDao.buscarPorId(1L);
+        System.out.println(produto.getPreco());
+
+        List<Produto> produtos = produtoDao.buscarTodos();
+        produtos.forEach(p -> System.out.println(p.getNome()));
+    }
+
+    private static void cadastrarProduto() {
         EntityManager em = JPAUtil.getEntityManger();
         em.getTransaction().begin(); // Preparar/Iniciar a transação
         CategoriaDao categoriaDao = new CategoriaDao(em);

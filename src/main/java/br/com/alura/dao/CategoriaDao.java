@@ -9,7 +9,7 @@ import br.com.alura.model.Produto;
 import javax.persistence.EntityManager;
 
 public class CategoriaDao {
-    private EntityManager em;
+    private final EntityManager em;
 
     public CategoriaDao(EntityManager em) {
         this.em = em;

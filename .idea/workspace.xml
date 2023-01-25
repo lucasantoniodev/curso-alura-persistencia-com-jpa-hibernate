@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a4d75d-13d3-4045-af3b-835606d66213" name="Changes" comment="JPA - merge">
+    <list default="true" id="e6a4d75d-13d3-4045-af3b-835606d66213" name="Changes" comment="JPA - Consultando Endidades (JPQL)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/CategoriaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/CategoriaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/dao/ProdutoDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/testes/CadastroDeProduto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Users/Lucas/Desenvolvimento/DBEcommerce/dbcommerce-backend",
+    "last_opened_file_path": "D:/Users/Lucas/Desenvolvimento/Pessoal/Java/loja",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -99,6 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674584026061</updated>
       <workItem from="1674584027681" duration="16688000" />
+      <workItem from="1674619888711" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="JPA - Persistindo uma entidade">
       <created>1674590773134</created>
@@ -142,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674606589237</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JPA - Deletar">
+      <created>1674619930408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674619930408</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +166,8 @@
     <MESSAGE value="JPA - Organizando código (Classe DAO E UTIL)" />
     <MESSAGE value="JPA - Tipos de atributos" />
     <MESSAGE value="JPA - Mapeando relaciomanetos, cardinalidade" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA - Mapeando relaciomanetos, cardinalidade" />
+    <MESSAGE value="JPA - Deletar" />
+    <MESSAGE value="JPA - Consultando Endidades (JPQL)" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA - Consultando Endidades (JPQL)" />
   </component>
 </project>
